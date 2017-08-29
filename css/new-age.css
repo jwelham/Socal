@@ -74,6 +74,11 @@ section h2 {
   font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
   font-weight: 200;
   letter-spacing: 1px;
+  position: relative;
+  background: url(../img/logo.jpg);
+  width: 170px;
+  left: 15px;
+  background-size: contain;
 }
 #mainNav .navbar-brand:hover,
 #mainNav .navbar-brand:focus {
