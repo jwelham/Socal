@@ -47,19 +47,19 @@
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#toppage">Home</a>
+            <a class="nav-link js-scroll-trigger" href="#toppage" data-transition="slide">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#features">About</a>
+            <a class="nav-link js-scroll-trigger" href="#features" data-transition="slide">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="contact.html" data-transition="slide">Contact</a>
+            <a class="nav-link js-scroll-trigger" href="#contact" data-transition="slide">Contact</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#quote">Get Quote</a>
+            <a class="nav-link js-scroll-trigger" href="#quote" data-transition="slide">Get Quote</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="faq.html">FAQ</a>
+            <a class="nav-link js-scroll-trigger" href="#faq" data-transition="slide">FAQ</a>
           </li>
         </ul>
       </div>
@@ -71,18 +71,110 @@
       <div class="row h-100">
         <div class="col-lg-7 my-auto">
           <div class="header-content mx-auto">
-            <h1 class="mb-5">We'll buy your house - without the realtor fees</h1>
+            <h1 class="mb-5">We'll buy your house<br>Any condition<br>No realtor fees</h1>
             <a href="#features" class="btn btn-outline btn-xl js-scroll-trigger">Learn More</a>
           </div>
         </div>
-        <div class="col-lg-5 my-auto">
-          <div class="device-container">
-            <!-- <div class="device-mockup iphone6_plus portrait white">
-              <div class="device">
-                <div class="screen">
-                  <!-- Demo image for screen mockup, you can put an image here, some HTML, an animation, video, or anything else! -->
-            <!-- <img src="img/demo-screen-1.jpg" class="img-fluid" alt=""> -->
-          </div>
+        <div class="col-lg-5 my-auto" id = "quote">
+            
+            <form class="well form-horizontal" action=" " method="post"  id="contact_form">
+            <fieldset>
+            
+            <!-- Form Name -->
+            <legend align = "center">Get Cash Offer!</legend>
+            
+            <!-- Text input-->
+            
+            <div class="form-group">
+              <div class="col-lg-12 inputGroupContainer">
+              <div class="input-group">
+              <input  name="name" placeholder="Name" class="form-control"  type="text">
+                </div>
+              </div>
+            </div>
+            
+                
+            <!-- Text input-->
+                   <div class="form-group">
+                <div class="col-lg-12 inputGroupContainer">
+                <div class="input-group">
+              <input name="email" placeholder="E-Mail Address" class="form-control"  type="text">
+                </div>
+              </div>
+            </div>
+            
+            
+            <!-- Text input-->
+                   
+            <div class="form-group">
+                <div class="col-lg-8 inputGroupContainer">
+                <div class="input-group">
+              <input name="phone" placeholder="Phone ###-###-####" class="form-control" type="text">
+                </div>
+              </div>
+            </div>
+            
+            <!-- Text input-->
+                  
+            <div class="form-group">
+                <div class="col-lg-12 inputGroupContainer">
+                <div class="input-group">
+              <input name="address" placeholder="Property Address" class="form-control" type="text">
+                </div>
+              </div>
+            </div>
+            
+            <!-- Text input-->
+             
+            <div class="form-group">
+                <div class="col-lg-6 inputGroupContainer">
+                <div class="input-group">
+              <input name="city" placeholder="City" class="form-control"  type="text">
+                
+                </div>
+              </div>
+            </div>
+            
+            <!-- Select Basic -->
+               
+            <div class="form-group"> 
+                <div class="col-lg-6 selectContainer">
+                <div class="input-group">
+                <select name="state" class="form-control selectpicker" >
+                  <option value="CA" >CA</option>
+
+                </select>
+                
+              </div>
+            </div>
+            </div>
+            
+            <!-- Text input-->
+            
+            <div class="form-group">
+                <div class="col-lg-6 inputGroupContainer">
+                <div class="input-group">
+              <input name="zip" placeholder="Zip Code" class="form-control"  type="text">
+                </div>
+            </div>
+            </div>
+            
+
+            
+            <!-- Success message -->
+            <div class="alert alert-success" role="alert" id="success_message"><i class="glyphicon glyphicon-thumbs-up"></i> Thank you for your submission. We will get back to you shortly. </div>
+            
+            <!-- Button -->
+            <div class="form-group">
+              <label class="col-lg-8 control-label"></label>
+              <div class="col-lg-8">
+                <button type="submit" class="btn btn-warning" >Send <span class="glyphicon glyphicon-send"></span></button>
+              </div>
+            </div>
+            
+            </fieldset>
+            </form>
+            </div>
           <div class="button">
             <!-- You can hook the "home button" to some JavaScript events or just remove it -->
           </div>
@@ -96,30 +188,28 @@
   <section class="features" id="features">
     <div class="container">
       <div class="row">
-        <div class="col-lg-4">
-          <img class="rounded-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image"
-            width="140" height="140">
-          <h2>Heading</h2>
-          <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula
-            ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
-          <a class="btn btn-secondary" href="#" role="button">View details »</a>
+        <div class="col-lg-4">            
+            <img class="rounded-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image"
+            width="140" height="140">     
+            
+            <h2>Contact</h2>
+          <p>Take a few minutes to send us your information. </p>
         </div>
         <!-- /.col-lg-4 -->
         <div class="col-lg-4">
           <img class="rounded-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image"
             width="140" height="140">
-          <h2>Heading</h2>
-          <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur
-            purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
+          <h2>Get Offer</h2>
+          <p>We evaluate the property and quickly give you an offer 
+              
+              </p>
         </div>
         <!-- /.col-lg-4 -->
         <div class="col-lg-4">
           <img class="rounded-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image"
             width="140" height="140">
-          <h2>Heading</h2>
-          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis
-            euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo
-            sit amet risus.</p>
+          <h2>Sell Fast</h2>
+          <p>We are cash buyers and can close on your timeline</p>
         </div>
         <!-- /.col-lg-4 -->
       </div>
@@ -155,42 +245,35 @@
         <div class="col-lg-12 my-auto">
           <div class="container-fluid">
             <div class="row">
-              <div class="col-lg-4">
-                <div class="feature-item">
-                  <i class="fa fa-usd text-primary"></i>
-                  <h3>We Pay More</h3>
-                  <p class="text-muted">We'll offer you more for your house than a typical buyer</p>
-                </div>
-              </div>
-              <div class="col-lg-4">
-                <div class="feature-item">
-                  <i class="fa fa-wrench text-primary"></i>
-                  <h3>Avoid Making Repairs</h3>
-                  <p class="text-muted">We will buy your house no matter what condition it is in</p>
-                </div>
-              </div>
-              <div class="col-lg-4">
+              <div class="col-lg-6">
                 <div class="feature-item">
                   <i class="fa fa-ban text-primary"></i>
-                  <h3>No Fees or Commissions</h3>
-                  <p class="text-muted">Avoid realtor commissions and fees when selling with us</p>
-                </div>
-              </div>
-            </div>
-
-            <div class="row">
-              <div class="col-lg-6">
-                <div class="feature-item">
-                  <i class="fa fa-hourglass-half"></i>
-                  <h3>Close at your convenience</h3>
-                  <p class="text-muted">Sed ut perspiciatis unde omnis</p>
+                  <h3>No Realtor Fees</h3>
+                  <p class="text-muted">We are Real Estate Investors, which means working with us cuts out the middle-man.  So you don’t have to pay realtor commissions and fees.
+                    </p>
                 </div>
               </div>
               <div class="col-lg-6">
                 <div class="feature-item">
-                  <i class="fa fa-money text-primary"></i>
+                  <i class="fa fa-wrench text-primary"></i>
+                  <h3>No Repairs</h3>
+                  <p class="text-muted">Fixing up homes is our specialty.  So no matter the condition, we can handle it.</p>
+                </div>
+              </div>
+             <div class="col-lg-6">
+                <div class="feature-item">
+                  <i class="fa fa-money"></i>
                   <h3>We Pay Cash</h3>
-                  <p class="text-muted">We keep things simple by paying cash</p>
+                  <p class="text-muted">Our offers are all cash.  So when you are ready to sell, we are ready to buy.
+                    </p>
+                </div>
+              </div>
+              <div class="col-lg-6">
+                <div class="feature-item">
+                  <i class="fa fa-hourglass-half text-primary"></i>
+                  <h3>Close On Any Timeline</h3>
+                  <p class="text-muted">Whether you want to sell in 1 week or 6 months, we will work with you to make it happen.
+                    </p>
                 </div>
               </div>
             </div>
@@ -202,181 +285,28 @@
     </div>
   </section>
 
-  <section class="cta" id="quote">
+  <section class="cta" id="contact">
     <div class="cta-content">
       <div class="container">
         <div class="row">
-          <div class="col-lg-6">
+          <div class="col-lg-8">
 
-            <h2>Stop waiting.<br>Start building.</h2>
-            <a href="#contact" class="btn btn-outline btn-xl js-scroll-trigger">Let's Get Started!</a>
+            <h2>Contact Us Today<br></h2>
           </div>
-          <div class="col-lg-6">
+          <div class="col-lg-4">
+              <div class="feature-item">
                   
-                  <form class="well form-horizontal" action=" " method="post"  id="contact_form">
-                  <fieldset>
-                  
-                  <!-- Form Name -->
-                  <legend>Contact Us Today!</legend>
-                  
-                  <!-- Text input-->
-                  
-                  <div class="form-group">
-                    <div class="col-lg-8 inputGroupContainer">
-                    <div class="input-group">
-                    <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
-                    <input  name="first_name" placeholder="First Name" class="form-control"  type="text">
-                      </div>
-                    </div>
-                  </div>
-                  
-                  <!-- Text input-->
-                  
-                  <div class="form-group">
-                      <div class="col-lg-8 inputGroupContainer">
-                      <div class="input-group">
-                    <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
-                    <input name="last_name" placeholder="Last Name" class="form-control"  type="text">
-                      </div>
-                    </div>
-                  </div>
-                  
-                  <!-- Text input-->
-                         <div class="form-group">
-                      <div class="col-lg-8 inputGroupContainer">
-                      <div class="input-group">
-                          <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
-                    <input name="email" placeholder="E-Mail Address" class="form-control"  type="text">
-                      </div>
-                    </div>
-                  </div>
-                  
-                  
-                  <!-- Text input-->
-                         
-                  <div class="form-group">
-                      <div class="col-lg-8 inputGroupContainer">
-                      <div class="input-group">
-                          <span class="input-group-addon"><i class="glyphicon glyphicon-earphone"></i></span>
-                    <input name="phone" placeholder="Phone ###-###-####" class="form-control" type="text">
-                      </div>
-                    </div>
-                  </div>
-                  
-                  <!-- Text input-->
-                        
-                  <div class="form-group">
-                      <div class="col-lg-8 inputGroupContainer">
-                      <div class="input-group">
-                          <span class="input-group-addon"><i class="glyphicon glyphicon-home"></i></span>
-                    <input name="address" placeholder="Address" class="form-control" type="text">
-                      </div>
-                    </div>
-                  </div>
-                  
-                  <!-- Text input-->
-                   
-                  <div class="form-group">
-                      <div class="col-lg-8 inputGroupContainer">
-                      <div class="input-group">
-                          <span class="input-group-addon"><i class="glyphicon glyphicon-home"></i></span>
-                    <input name="city" placeholder="City" class="form-control"  type="text">
-                      </div>
-                    </div>
-                  </div>
-                  
-                  <!-- Select Basic -->
-                     
-                  <div class="form-group"> 
-                      <div class="col-lg-8 selectContainer">
-                      <div class="input-group">
-                          <span class="input-group-addon"><i class="glyphicon glyphicon-list"></i></span>
-                      <select name="state" class="form-control selectpicker" >
-                        <option value=" " >Please select your state</option>
-                        <option>Alabama</option>
-                        <option>Alaska</option>
-                        <option >Arizona</option>
-                        <option >Arkansas</option>
-                        <option >California</option>
-                        <option >Colorado</option>
-                        <option >Connecticut</option>
-                        <option >Delaware</option>
-                        <option >District of Columbia</option>
-                        <option> Florida</option>
-                        <option >Georgia</option>
-                        <option >Hawaii</option>
-                        <option >daho</option>
-                        <option >Illinois</option>
-                        <option >Indiana</option>
-                        <option >Iowa</option>
-                        <option> Kansas</option>
-                        <option >Kentucky</option>
-                        <option >Louisiana</option>
-                        <option>Maine</option>
-                        <option >Maryland</option>
-                        <option> Mass</option>
-                        <option >Michigan</option>
-                        <option >Minnesota</option>
-                        <option>Mississippi</option>
-                        <option>Missouri</option>
-                        <option>Montana</option>
-                        <option>Nebraska</option>
-                        <option>Nevada</option>
-                        <option>New Hampshire</option>
-                        <option>New Jersey</option>
-                        <option>New Mexico</option>
-                        <option>New York</option>
-                        <option>North Carolina</option>
-                        <option>North Dakota</option>
-                        <option>Ohio</option>
-                        <option>Oklahoma</option>
-                        <option>Oregon</option>
-                        <option>Pennsylvania</option>
-                        <option>Rhode Island</option>
-                        <option>South Carolina</option>
-                        <option>South Dakota</option>
-                        <option>Tennessee</option>
-                        <option>Texas</option>
-                        <option> Uttah</option>
-                        <option>Vermont</option>
-                        <option>Virginia</option>
-                        <option >Washington</option>
-                        <option >West Virginia</option>
-                        <option>Wisconsin</option>
-                        <option >Wyoming</option>
-                      </select>
-                    </div>
-                  </div>
-                  </div>
-                  
-                  <!-- Text input-->
-                  
-                  <div class="form-group">
-                      <div class="col-lg-8 inputGroupContainer">
-                      <div class="input-group">
-                          <span class="input-group-addon"><i class="glyphicon glyphicon-home"></i></span>
-                    <input name="zip" placeholder="Zip Code" class="form-control"  type="text">
-                      </div>
-                  </div>
-                  </div>
-                  
+                <ul class="fa-ul">
+                  <li><i class="fa-li fa fa-phone"></i><h1 class = "phone">(949) 346-2349</h1></li><br>
+                  <li><i class="fa-li fa fa-envelope-o"></i><h1 class = "phone">socalpropertybuyers@gmail.com</h1></li>
+                </ul>              
+              </div>
+          </div>
+              
 
-                  
-                  <!-- Success message -->
-                  <div class="alert alert-success" role="alert" id="success_message"><i class="glyphicon glyphicon-thumbs-up"></i> Thank you for your submission. We will get back to you shortly. </div>
-                  
-                  <!-- Button -->
-                  <div class="form-group">
-                    <label class="col-lg-8 control-label"></label>
-                    <div class="col-lg-8">
-                      <button type="submit" class="btn btn-warning" >Send <span class="glyphicon glyphicon-send"></span></button>
-                    </div>
-                  </div>
-                  
-                  </fieldset>
-                  </form>
-                  </div>
-                      </div><!-- /.container -->
+
+
+          <!-- /.container -->
           </div>
         </div>
       </div>
@@ -384,6 +314,126 @@
     </div>
     <div class="overlay"></div>
   </section>
+  <section class="features" id="faq">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <h2>Frequently Asked Questions</h2>
+  
+            <div class="tab-content panels-faq">
+              <div class="tab-pane active" id="tab1">
+                <div class="panel-group" id="help-accordion-1">
+                  <div class="panel panel-default panel-help">
+                    <a href="#opret-produkt" data-toggle="collapse" data-parent="#help-accordion-1">
+                      <div class="panel-heading">
+                        <h2>How do I get a quote?</h2>
+                      </div>
+                    </a>
+                    <div id="opret-produkt" class="collapse in">
+                      <div class="panel-body">
+                        <p></p>
+
+                      </div>
+                    </div>
+                  </div>
+                  <div class="panel panel-default panel-help">
+                    <a href="#rediger-produkt" data-toggle="collapse" data-parent="#help-accordion-1">
+                      <div class="panel-heading">
+                        <h2>What types of properties do you buy?</h2>
+                      </div>
+                    </a>
+                    <div id="rediger-produkt" class="collapse">
+                      <div class="panel-body">
+                        <p>We buy single and multi-family residential properties</p>
+
+                      </div>
+                    </div>
+                  </div>
+                  <div class="panel panel-default panel-help">
+                    <a href="#ret-pris" data-toggle="collapse" data-parent="#help-accordion-1">
+                      <div class="panel-heading">
+                        <h2>What happens to my property?</h2>
+                      </div>
+                    </a>
+                    <div id="ret-pris" class="collapse">
+                      <div class="panel-body">
+                        <p>We will usually fix up the property and sell or rent it out. Less often we will work with a partner to rehab the property</p>
+
+                      </div>
+                    </div>
+                  </div>
+                  <div class="panel panel-default panel-help">
+                    <a href="#slet-produkt" data-toggle="collapse" data-parent="#help-accordion-1">
+                      <div class="panel-heading">
+                        <h2>How quickly can you give me an offer?</h2>
+                      </div>
+                    </a>
+                    <div id="slet-produkt" class="collapse">
+                      <div class="panel-body">
+                        <p>We typically give an offer within one week of contact.</p>
+
+                      </div>
+                    </div>
+                  </div>
+                  <div class="panel panel-default panel-help">
+                    <a href="#opret-kampagne" data-toggle="collapse" data-parent="#help-accordion-1">
+                      <div class="panel-heading">
+                        <h2>Are you realtors?</h2>
+                      </div>
+                    </a>
+                    <div id="opret-kampagne" class="collapse">
+                      <div class="panel-body">
+                        <p>Members of our team have their real estate license, but at no point do we operate as realtors during the transaction.</p>
+
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane" id="tab2">
+                <div class="panel-group" id="help-accordion-2">
+                  <div class="panel panel-default panel-help">
+                    <a href="#help-three" data-toggle="collapse" data-parent="#help-accordion-2">
+                      <div class="panel-heading">
+                        <h2>Lorem ipsum?</h2>
+                      </div>
+                    </a>
+                    <div id="help-three" class="collapse in">
+                      <div class="panel-body">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus nesciunt ut officiis accusantium
+                          quisquam minima praesentium, beatae fugit illo nobis fugiat adipisci quia distinctio repellat culpa
+                          saepe, optio aperiam est!</p>
+                        <p><strong>Example: </strong>Facere, id excepturi iusto aliquid beatae delectus nemo enim, ad saepe nam
+                          et.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
   <section class="contact bg-primary" id="contact">
     <div class="container">
@@ -420,7 +470,7 @@
           <a href="#">Terms</a>
         </li>
         <li class="list-inline-item">
-          <a href="#">FAQ</a>
+          <a href="#faq">FAQ</a>
         </li>
       </ul>
     </div>
