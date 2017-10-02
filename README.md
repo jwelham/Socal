@@ -5,6 +5,8 @@
 ## Preview
 
 [![New Age Preview](https://startbootstrap.com/assets/img/templates/new-age.jpg)](https://blackrockdigital.github.io/startbootstrap-new-age/)
+![](img/socal_home.png)
+
 
 **[View Live Preview](https://blackrockdigital.github.io/startbootstrap-new-age/)**
 
